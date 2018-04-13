@@ -12,21 +12,19 @@
 		0597C0E720813B4E0045DE7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0597C0E520813B4E0045DE7C /* Main.storyboard */; };
 		0597C0E920813B4F0045DE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0597C0E820813B4F0045DE7C /* Assets.xcassets */; };
 		0597C0EC20813B500045DE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0597C0EA20813B500045DE7C /* LaunchScreen.storyboard */; };
-		0597C0F8208141480045DE7C /* points.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 0597C0F7208141480045DE7C /* points.geojson */; };
-		0597C0FA208141730045DE7C /* points.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 0597C0F9208141730045DE7C /* points.geojson */; };
+		0597C0FE20814CCB0045DE7C /* points.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 0597C0FD20814CCB0045DE7C /* points.geojson */; };
 		B47472A8832F9D5379DE542D /* Pods_gl_native_symbol_bug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1893860C28662625EFB7 /* Pods_gl_native_symbol_bug.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0597C0DE20813B4E0045DE7C /* gl-native-symbol-bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gl-native-symbol-bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0597C0E120813B4E0045DE7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0597C0E320813B4E0045DE7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0597C0E320813B4E0045DE7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "gl-native-symbol-bug/ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		0597C0E620813B4E0045DE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0597C0E820813B4F0045DE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0597C0EB20813B500045DE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0597C0ED20813B500045DE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0597C0F7208141480045DE7C /* points.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; name = points.geojson; path = ../../Desktop/points.geojson; sourceTree = "<group>"; };
-		0597C0F9208141730045DE7C /* points.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = points.geojson; path = ../../../Desktop/points.geojson; sourceTree = "<group>"; };
+		0597C0FD20814CCB0045DE7C /* points.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = points.geojson; sourceTree = "<group>"; };
 		4BEF64F328478EA94E28E9A9 /* Pods-gl-native-symbol-bug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gl-native-symbol-bug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gl-native-symbol-bug/Pods-gl-native-symbol-bug.debug.xcconfig"; sourceTree = "<group>"; };
 		F5EA1893860C28662625EFB7 /* Pods_gl_native_symbol_bug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gl_native_symbol_bug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1D448BFC67E9C86B83ABE4 /* Pods-gl-native-symbol-bug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gl-native-symbol-bug.release.xcconfig"; path = "Pods/Target Support Files/Pods-gl-native-symbol-bug/Pods-gl-native-symbol-bug.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +45,6 @@
 		0597C0D520813B4E0045DE7C = {
 			isa = PBXGroup;
 			children = (
-				0597C0F7208141480045DE7C /* points.geojson */,
 				0597C0E020813B4E0045DE7C /* gl-native-symbol-bug */,
 				0597C0DF20813B4E0045DE7C /* Products */,
 				322B87839A1AAAEF47FDCC7D /* Pods */,
@@ -66,13 +63,13 @@
 		0597C0E020813B4E0045DE7C /* gl-native-symbol-bug */ = {
 			isa = PBXGroup;
 			children = (
-				0597C0F9208141730045DE7C /* points.geojson */,
 				0597C0E120813B4E0045DE7C /* AppDelegate.swift */,
 				0597C0E320813B4E0045DE7C /* ViewController.swift */,
 				0597C0E520813B4E0045DE7C /* Main.storyboard */,
 				0597C0E820813B4F0045DE7C /* Assets.xcassets */,
 				0597C0EA20813B500045DE7C /* LaunchScreen.storyboard */,
 				0597C0ED20813B500045DE7C /* Info.plist */,
+				0597C0FD20814CCB0045DE7C /* points.geojson */,
 			);
 			path = "gl-native-symbol-bug";
 			sourceTree = "<group>";
@@ -155,10 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0597C0FA208141730045DE7C /* points.geojson in Resources */,
-				0597C0F8208141480045DE7C /* points.geojson in Resources */,
 				0597C0EC20813B500045DE7C /* LaunchScreen.storyboard in Resources */,
 				0597C0E920813B4F0045DE7C /* Assets.xcassets in Resources */,
+				0597C0FE20814CCB0045DE7C /* points.geojson in Resources */,
 				0597C0E720813B4E0045DE7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

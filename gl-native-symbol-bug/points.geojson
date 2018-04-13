@@ -1,0 +1,32 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "type": "camera"
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 -0.3330230712890625,
+                                 53.747086635212845
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "type": "port"
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 -0.33233642578125,
+                                 53.773877275053934
+                                 ]
+                 }
+                 }
+                 ]
+}
+
