@@ -17,7 +17,7 @@
                  {
                  "type": "Feature",
                  "properties": {
-                 "type": "port"
+                 "type": "star"
                  },
                  "geometry": {
                  "type": "Point",
